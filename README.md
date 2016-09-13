@@ -36,6 +36,26 @@ if(2 < 3)
 end
 ```
 In this case the code would run because 3 is greater than 2.
+
+In the case that the code doesn't run for some reason, we can use else to make something else happen.
+```
+if(5 == 3)
+	return "Hi"
+else 
+	return "Bye"
+end
+```
+This time the code would return "Bye", because the initial condition isn't true. If it were to say, 5 == 5, then only the first condition would return true.
+
+Another type of conditional method is a while loop. A while loop will only run while the predetermined condition is true. 
+
+```
+x = 0
+while(x < 5)
+	x = x + 1
+end
+```
+This code would run for 5 times since it would take 5 times to run it before the condition is no longer true.
 ```
 def my_method(a)
   a + 10
