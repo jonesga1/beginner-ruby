@@ -56,8 +56,15 @@ while(x < 5)
 end
 ```
 This code would run for 5 times since it would take 5 times to run it before the condition is no longer true.
+
+### Methods
+
+A method is essentially a block of code that can do whatever you want it to and can fill any conditions you want.
 ```
 def my_method(a)
   a + 10
 end
 ```
+If you wanted to run this method, you would just have to call my_method(2), with any number you want to put in. Methods are meant to work with whatever types of inputs you want, strings, integers, booleans, etc.
+
+You can create a method to do just about anything shown.
